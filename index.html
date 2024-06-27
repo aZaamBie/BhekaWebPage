@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- WARNING: DESIGN FOR MOBILE FIRST WITH THIS BOOTSTRAP FRAMEWORK. I SABOTAGED MYSELF BY STARTING WITH PURE CSS
+     AND MADE SO MANY STUPID DECISIONS  -->
+
 
     <!-- HEADING -->
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="main.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
         <title>Bheka Mabika - Home</title>
     </head>
 
     <!-- BODY -->
      <body>
 
-        <!-- TOP SECTION -->
+        <!-- HEADERs SECTION -->
         <div class="heading">
             <h2>Bheka Mabika</h2>
              <!-- <img src="Assets/images/banner01.jpeg" style="height:10%; width: 10%;"> -->
@@ -30,27 +40,27 @@
         <!-- <br> -->
 
         <section class="frontCover" style="margin: 0 auto; padding: 10%;">
-            <img src="Assets/images/banner01.jpeg" style="height:100%; width: 100%;">
+            <img src="Assets/images/banner01.jpeg" width="fit-content" height="fit-content"
+            class="img-thumbnail"">
+
+            <!-- class="img-responsive" -->
         </section>
 
         <!-- <br> -->
 
-        <!-- CONTAINER -->
+        <!-- CONTAINER MAIN -->
         <div class="container">
 
-            <div class="Home"> <!-- Rename class to Intro?-->
-                <!-- <h1>Home</h1> -->
-                 <!-- <section class="frontCover">
-                <img src="Assets/images/banner01.jpeg" style="height:100%; width: 100%;">
-                </section> -->
+            <h1 class="text-center" style="background-color: whitesmoke;">Home</h1>
+            <br>
 
-                <h1>Home</h1>
+            <!-- HOME / HERO PAGE -->
+            <div class="jumbotron text-center"> 
 
-                <!-- <h2>Bheka Mabika</h2> -->
-                <!-- <h4>Student, Critical Thinker, </h4> -->
                 <h3>Hi, I'm Bheka! A young man from South Africa</h3>
-                <img src="Assets/images/home01.jpeg" class="medIMG"
-                style="width: 50%; height: 50%;">
+                <img src="Assets/images/home_01.jpg"
+                class="img-circle"
+                width="50%" height="50%">
             </div>
 
             <div class="BODY">
@@ -58,34 +68,76 @@
             </div>
 
             <!-- INTERESTING PROJECTS -->
+
             <!-- <div class="interestingProjects"> -->
-            <div class="interestingProjects">
-                <h2 class="Title_">Interesting Projects:</h2>
-                <ul>
-                    <li>
-                        <p class="p_med">Google Digital Marketing Certification Exam Passed with 97%.</p>
-                        <embed class="pdf" src="Assets/pdfs/Bheka_Mabika_Google_Digital_Marketing_Certificate.pdf" 
-                        width="500px" height="500px">
-                        <!-- width="500px" height="500px"> -->
-                    </li>
+            <!-- <div class="container"> -->
+            <div class="container text-center">
 
-                    <li>
-                        <p class="p_med">67 Kids To School Fundraiser</p>
-                        <img class="smallIMG" src="Assets/images/home_67kidstoschoolfundraiser.jpg">
-                    </li>
+                <div class="jumbotron" id="interestingProjects">
+                    <div class="container text-center">
+                    <h2 class="Title_" >Interesting Projects:</h2>
 
-                    <li>
-                        <p class="p_med">Forex Trading Certificate</p>
-                        <img class="smallIMG" src="Assets/images/home_forextTradingCert.jpg">
-                    </li>
-                </ul>
+                    <div class="row">
+
+                        <div class="col-sm-4">
+                            <div class="thumnbnail">
+                                <p class="p_med">Google Digital Marketing Certification Exam Passed with 97%.</p>
+                                <!-- <embed class="pdf" src="Assets/pdfs/Bheka_Mabika_Google_Digital_Marketing_Certificate.pdf" > -->
+                                <!-- width="500px" height="500px"> -->
+
+                                <!-- <iframe class="pdf" src="Assets/pdfs/Bheka_Mabika_Google_Digital_Marketing_Certificate.pdf"
+                                width="300" height="400"> </iframe> -->
+
+                                <object data="Assets/pdfs/Bheka_Mabika_Google_Digital_Marketing_Certificate.pdf" type="application/pdf" width="100%" height="500px">
+                                    <p>Unable to display PDF file. <a href="Assets/pdfs/Bheka_Mabika_Google_Digital_Marketing_Certificate.pdf">Download</a> instead.</p>
+                                  </object>
+                                
+                                <!-- I'M GOING INSANE!!! WHY CAN'T THE PDF VIEWER JUST WORK AND SCALE PROPERLY??!!!
+                                 FUCK YOU ADOBE!!!! -->
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="thumnbnail">
+                                <p class="p_med">67 Kids To School Fundraiser</p>
+                                <!-- <img class="smallIMG" src="Assets/images/home_67kidstoschoolfundraiser.jpg"> -->
+                                <img class="img-responsive" src="Assets/images/home_67kidstoschoolfundraiser.jpg">
+                            </div>
+                         </div>
+
+                         <div class="col-sm-4">
+                            <div class="thumnbnail">
+                                <p class="p_med">Forex Trading Certificate</p>
+                                <img class="img-responsive" src="Assets/images/home_forextTradingCert.jpg">
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
             <br>
 
+            <div class="row">
+
+                <!-- <div class="col-sm-5" style="background-color:lavender;">.col-sm-5</div> -->
+
+                <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+                <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
+                <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+
+                <!-- <div class="col-sm-3" style="background-color:lavender;">.col-sm-3</div>
+                <div class="col-sm-2" style="background-color:lavenderblush;">.col-sm-2</div>
+                <div class="col-sm-1" style="background-color:lavender;">.col-sm-1</div> -->
+              </div>
+
+            <br>
+
             <!-- OTHER NOTABLE ACHIEVEMENTS -->
-            <!-- <div class="otherNotableAchievements"> -->
-            <div class="interestingProjects">
+            <div class="jumbotron text-center">
                 <h2 class="Title_">Other Notable Achievements</h2>
                 <ul>
                     <li>
