@@ -1,3 +1,6 @@
+<!-- ORIGINAL VERSION: 27/6/2024 --!>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,13 +63,11 @@
             <!-- INTERESTING PROJECTS -->
             <!-- <div class="interestingProjects"> -->
             <div class="interestingProjects">
-                <h2 class="Title_">Interesting Projects:</h2>
+                <h2 class="Title_">Interesting Projects:</h3>
                 <ul>
                     <li>
                         <p class="p_med">Google Digital Marketing Certification Exam Passed with 97%.</p>
-                        <embed class="pdf" src="Assets/pdfs/Bheka_Mabika_Google_Digital_Marketing_Certificate.pdf" 
-                        width="500px" height="500px">
-                        <!-- width="500px" height="500px"> -->
+                        <embed class="pdf" src="Assets/pdfs/Bheka_Mabika_Google_Digital_Marketing_Certificate.pdf" width="500px" height="500px">
                     </li>
 
                     <li>
@@ -86,29 +87,19 @@
             <!-- OTHER NOTABLE ACHIEVEMENTS -->
             <!-- <div class="otherNotableAchievements"> -->
             <div class="interestingProjects">
-                <h2 class="Title_">Other Notable Achievements</h2>
+                <h2 class="Title_">Other Notible Achievements</h2>
                 <ul>
                     <li>
                         <p class="p_med">Public Speaking SALA Competition Final Round</p>
-                        <!-- <embed class="pdf" src="https://drive.google.com/file/d/1uObBgumH9KY3CGyozS-gDBKysJL_Dayr/view?usp=sharing" 
-                        width="500px" height="500px"> -->
-                        <embed class="pdf" src="Assets/pdfs/Bheka - SA College.pdf" 
-                        style="height: fit-content; width: fit-content;">
+                        <embed class="pdf" src="https://drive.google.com/file/d/1uObBgumH9KY3CGyozS-gDBKysJL_Dayr/view?usp=sharing" width="500px" height="500px">
                     </li>
 
                     <li>
-                        <p class="p_med">Project Euler</p>
-                        <img class="smallIMG" src="Assets/images/projectEuler.jpeg" style="height: 70%; width: 70%;">
-
-                        <!-- Project Euler is a digital Colosseum for mathematically curious and algorithmically inclined programmers. This site offers a series of puzzles that progressively challenge and entertain. 
-
-                            Imagine a programmer, freshly caffeinated and eager, tackling the initial simple puzzles with confidence. But as they delve deeper, they face intricate problems involving number theory and combinatorics, each more demanding than the last. 
-
-                            The struggle is real, but so is the satisfaction of solving each puzzle, akin to catching lightning in a bottle. The forums, filled with hints and camaraderie, become a second home. Project Euler isn’t just a website; it’s a journey through the landscapes of math and logic, perfect for those seeking to sharpen their skills and embrace tough problem-solving. Dive in, and prepare for some serious brain sweat. -->
+                        <p class="p_med">Forex Expert Advisor Course</p>
                     </li>
 
                     <li>
-                        <!-- <p class="p_med">Western Province Chess Proof</p> -->
+                        <p class="p_med">Western Province Chess Proof</p>
                     </li>
                 </ul>
             </div>
