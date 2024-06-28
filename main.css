@@ -119,6 +119,10 @@ body{
     text-decoration: none;
 }
 
+.collapsing { 
+    transition-duration: 0s 
+  }
+
 
 /* HOME PAGE */
 
