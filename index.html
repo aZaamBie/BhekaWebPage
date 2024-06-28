@@ -13,7 +13,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="main.css">
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -34,27 +33,20 @@
 
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" role="navigation">
-                <div class="container justify-content-center">
-                    <!-- <div class="navbar-header">
-                        <a class="navbar-brand" href="#">Bheka</a>
-                      </div> -->
+                <div class="container-fluid justify-content-center">
 
-                    <div class="navbar-header">
-                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                            aria-controls="bs-example-navbar-collapse-1" aria-expanded="true" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span> 
-                        </button>
-                    </div>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-controls="bs-example-navbar-collapse-1" aria-expanded="true" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span> 
+                    </button>
 
                     <div class="navbar-collapse collapse show justify-content-center" id="bs-example-navbar-collapse-1" style>
-
                         <ul class="nav navbar-nav">
                             <li class="nav-item active"> <a class="nav-link" href="#">Home</a> </li>
                             <li class="nav-item"> <a class="nav-link" href="Pages/About.html">About</a> </li>
                             <li class="nav-item"> <a class="nav-link" href="Pages/ProjectPage.html">Project Page</a> </li>
                             <li class="nav-item"> <a class="nav-link" href="Pages/Contact.html">Contact</a> </li>
                         </ul>
-                        
                     </div>
 
                 </div>
@@ -74,8 +66,8 @@
         <!-- CONTAINER MAIN -->
         <div class="container">
 
-            <h1 class="text-center" style="background-color: whitesmoke;">Home</h1>
-            <br>
+            <!-- <h1 class="text-center" style="background-color: whitesmoke;">Home</h1>
+            <br> -->
 
             <!-- HOME / HERO PAGE -->
             <div class="jumbotron text-center"> 
@@ -84,6 +76,8 @@
                 <img src="Assets/images/home_01.jpg"
                 class="img-circle"
                 width="50%" height="50%">
+                <br>
+                <p class="mt-3 lead mb-0">I'm currently pursuing a Bachelor of Business Science in Actuarial Science at the University of Cape Town</p>
             </div>
 
             <div class="BODY">
@@ -92,8 +86,6 @@
 
             <!-- INTERESTING PROJECTS -->
 
-            <!-- <div class="interestingProjects"> -->
-            <!-- <div class="container"> -->
             <div class="container text-center">
 
                 <div class="jumbotron" id="interestingProjects">
@@ -144,48 +136,47 @@
 
             <br>
 
-            <div class="row">
-
-                <!-- <div class="col-sm-5" style="background-color:lavender;">.col-sm-5</div> -->
-
+            <!-- <div class="row">
                 <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
                 <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
                 <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
-
-                <!-- <div class="col-sm-3" style="background-color:lavender;">.col-sm-3</div>
-                <div class="col-sm-2" style="background-color:lavenderblush;">.col-sm-2</div>
-                <div class="col-sm-1" style="background-color:lavender;">.col-sm-1</div> -->
-              </div>
+            </div> -->
 
             <br>
 
             <!-- OTHER NOTABLE ACHIEVEMENTS -->
-            <div class="jumbotron text-center">
-                <h2 class="Title_">Other Notable Achievements</h2>
-                <ul>
-                    <li>
-                        <p class="p_med">Public Speaking SALA Competition Final Round</p>
-                        <!-- <embed class="pdf" src="https://drive.google.com/file/d/1uObBgumH9KY3CGyozS-gDBKysJL_Dayr/view?usp=sharing" 
-                        width="500px" height="500px"> -->
-                        <embed class="pdf" src="Assets/pdfs/Bheka - SA College.pdf" 
-                        style="height: fit-content; width: fit-content;">
-                    </li>
+            <div class="container text-center">
+                <div class="jumbotron" id="interestingProjects">
+                    <div class="container text-center">
+                    <h2 class="Title_">Other Notable Achievements</h2>
 
-                    <li>
-                        <p class="p_med">Project Euler</p>
-                        <img class="smallIMG" src="Assets/images/projectEuler.jpeg" style="height: 70%; width: 70%;">
+                    <div class="row">
 
-                        <!-- Project Euler is a digital Colosseum for mathematically curious and algorithmically inclined programmers. This site offers a series of puzzles that progressively challenge and entertain. 
+                        <div class="col-sm-6 px-1">
+                            <div class="thumnbnail">
+                                <p class="p_med">Public Speaking SALA Competition Final Round</p>
+                                <embed class="pdf" src="Assets/pdfs/Bheka - SA College.pdf" 
+                                style="height: fit-content; width: fit-content;">
+                            </div>
+                        </div>
 
-                            Imagine a programmer, freshly caffeinated and eager, tackling the initial simple puzzles with confidence. But as they delve deeper, they face intricate problems involving number theory and combinatorics, each more demanding than the last. 
+                        <div class="col-sm-6 px-1">
+                            <div class="thumnbnail">
+                                <p class="p_med">Project Euler</p>
+                                <img class="smallIMG" src="Assets/images/projectEuler.jpeg" style="height: 100%; width: 100%;">
 
-                            The struggle is real, but so is the satisfaction of solving each puzzle, akin to catching lightning in a bottle. The forums, filled with hints and camaraderie, become a second home. Project Euler isn’t just a website; it’s a journey through the landscapes of math and logic, perfect for those seeking to sharpen their skills and embrace tough problem-solving. Dive in, and prepare for some serious brain sweat. -->
-                    </li>
+                                <button data-toggle="collapse" data-target="#EP_learnMore">Learn more</button>
 
-                    <li>
-                        <!-- <p class="p_med">Western Province Chess Proof</p> -->
-                    </li>
-                </ul>
+                                <div id="EP_learnMore" class="collapse">
+                                    Project Euler is a digital Colosseum for mathematically curious and algorithmically inclined programmers. This site offers a series of puzzles that progressively challenge and entertain. 
+
+                                    Imagine a programmer, freshly caffeinated and eager, tackling the initial simple puzzles with confidence. But as they delve deeper, they face intricate problems involving number theory and combinatorics, each more demanding than the last. 
+        
+                                    The struggle is real, but so is the satisfaction of solving each puzzle, akin to catching lightning in a bottle. The forums, filled with hints and camaraderie, become a second home. Project Euler isn’t just a website; it’s a journey through the landscapes of math and logic, perfect for those seeking to sharpen their skills and embrace tough problem-solving. Dive in, and prepare for some serious brain sweat.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         
         </div>
