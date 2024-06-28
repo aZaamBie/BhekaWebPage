@@ -83,7 +83,6 @@ body{
 .TopNav a:hover{
     color: #606877;
     text-decoration: none;
-
 }
 
 /* #DC5F00 */
@@ -101,6 +100,24 @@ body{
         justify-content: center; || affects the x-axis
         align-itmes: center;    || affects the y-axis
     */
+
+
+/* BOOTSTRAP CUSTOMIZATIONS */
+.nav-link{
+    font-size: larger;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none; /* Remove underline */
+
+    color: #000000;
+    /* CSS has no effect on the bootstrap's item sadly. The colour doesn't change */
+    /* Background colour works though */
+}
+
+.nav-link a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
 
 
 /* HOME PAGE */
