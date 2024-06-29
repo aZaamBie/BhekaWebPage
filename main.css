@@ -14,10 +14,15 @@ body{
 
     /* ORIGINAL */
     /* background: linear-gradient(#686D76, #373A40); */
+    
+    /* OLD: < 29/6/2024*/
+    /* background: linear-gradient(#3AAFA9, #2b8682); */
+    /* KEEP THIS! Without this, the gradient repeats*/
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+
     /* NEW */
-    background: linear-gradient(#3AAFA9, #2b8682);
-    background-repeat: no-repeat; /* KEEP THIS! Without this, the gradient repeats*/
-    background-attachment: fixed;
+    background-color: #000000 !important;
 
     color: aliceblue;
 
@@ -244,15 +249,16 @@ body{
 
 
 /* ABOUT PAGE */
-#About h3{
+
+/* #About h3{
     background-color: #093f9b;
     border: #093f9b 2px solid;
-}
+} */
 
-#About {
+/* #About { */
     /* GRID STUFF */
-    display: grid;
+    /* display: grid;
     justify-content: center;
     place-items: center; 
     grid-gap: 2em;
-}
+} */
