@@ -33,7 +33,8 @@ body{
 
 .heading{
     /* background-color: #EEEEEE; */
-    background-color: #FEFFFF;
+    background-color: #f8f9fa;
+
     color: #373A40;
 
     width: 100%;
@@ -189,7 +190,8 @@ body{
 }
 
 .Title_{
-    background-color: #373A40;
+    /* background-color: #373A40; */
+    background-color: #575e6a;
     border-radius: 5px;
 
     /* width: fit-content; */
@@ -202,6 +204,19 @@ body{
 
     text-align: center;
     justify-content: center;
+}
+
+.Title_S{
+    background-color: #373A40;
+    border-radius: 5px;
+
+    padding: 1%;
+
+    color: white;
+
+    /* text-align: center;
+    justify-content: center; */
+
 }
 
 .smallIMG{
