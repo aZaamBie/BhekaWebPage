@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- WARNING: DESIGN FOR MOBILE FIRST WITH THIS BOOTSTRAP FRAMEWORK. I SABOTAGED MYSELF BY STARTING WITH PURE CSS
+     AND MADE SO MANY STUPID DECISIONS  -->
+
+
+    <!-- TODO:
+     https://www.youtube.com/shorts/BiYBJ9PIbrw - circular animations for icons
+      -->
+    
+    <!-- HEADING -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <title>Bheka Mabika - Home</title>
+    </head>
+
+    <!-- BODY -->
+     <body>
+
+        <!-- HEADERs SECTION -->
+        <div class="heading">
+            <h2>Bheka Mabika</h2>
+             <!-- <img src="Assets/images/banner01.jpeg" style="height:10%; width: 10%;"> -->
+        </div>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" role="navigation">
+                <div class="container-fluid justify-content-center">
+
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-controls="bs-example-navbar-collapse-1" aria-expanded="true" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span> 
+                    </button>
+
+                    <div class="navbar-collapse collapse show justify-content-center" id="bs-example-navbar-collapse-1" style>
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item active"> <a class="nav-link" href="#">Home</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="Pages/About.html">About</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="Pages/ProjectPage.html">Project Page</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="Pages/Contact.html">Contact</a> </li>
+                        </ul>
+                    </div>
+
+                </div>
+        </nav>
+
+        <!-- <br> -->
+
+        <section class="frontCover" style="margin: 0 auto; padding: 10%;">
+            <img src="Assets/images/banner01.jpeg" width="fit-content" height="fit-content"
+            class="img-thumbnail"">
+
+            <!-- class="img-responsive" -->
+        </section>
+
+        <!-- <br> -->
+
+        <!-- CONTAINER MAIN -->
+        <div class="container">
+
+            <!-- <h1 class="text-center" style="background-color: whitesmoke;">Home</h1>
+            <br> -->
+
+            <!-- HOME / HERO PAGE -->
+            <div class="jumbotron text-center"> 
+
+                <h3>My name is Bheka Mabika, I am thrilled to share my journey with you.</h3>
+                <img src="Assets/images/home_01.jpg"
+                class="img-circle"
+                width="50%" height="50%">
+                <br>
+                <p class="mt-3 lead mb-0">I'm currently pursuing a Bachelor of Business Science in Actuarial Science at the University of Cape Town</p>
+            </div>
+
+            <div class="BODY">
+
+            </div>
+
+            <!-- INTERESTING PROJECTS -->
+
+            <div class="container text-center">
+
+                <div class="jumbotron" id="interestingProjects">
+                    <div class="container text-center">
+                    <h2 class="Title_" >Interesting Projects:</h2>
+
+                    <div class="row">
+
+                        <div class="col-sm-4 px-0">
+                            <div class="thumnbnail">
+                                <a href="https://www.linkedin.com/learning/certificates/263396a0870a5cbbb2df4cdc3abac6138e0d4378f3786456399ef7a4869a91c2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BPEfX4OGrTeqZuw2GCYw5xA%3D%3D"
+                                target="_blank">
+                                    <p class="p_med">CFI certificate of completion</p> <!-- Exam Passed with 97%.-->
+                                    <!-- <embed class="pdf" src="Assets/pdfs/Bheka_Mabika_Google_Digital_Marketing_Certificate.pdf" > -->
+                                    <!-- width="500px" height="500px"> -->
+
+                                    <!-- <iframe class="pdf" src="Assets/pdfs/Bheka_Mabika_Google_Digital_Marketing_Certificate.pdf"
+                                    width="300" height="400"> </iframe> -->
+
+                                    <!-- <object data="Assets/pdfs/Bheka_Mabika_Google_Digital_Marketing_Certificate.pdf" type="application/pdf" width="100%" height="500px">
+                                        <p>Unable to display PDF file. <a href="Assets/pdfs/Bheka_Mabika_Google_Digital_Marketing_Certificate.pdf">Download</a> instead.</p>
+                                    </object> -->
+                                    
+                                    <!-- I'M GOING INSANE!!! WHY CAN'T THE PDF VIEWER JUST WORK AND SCALE PROPERLY??!!!
+                                    FUCK YOU ADOBE!!!! -->
+                                    
+                                    <!-- GOing to use img instead -->
+                                    <img class="img-responsive" src="https://media.licdn.com/dms/image/D4D22AQHlDV4YAZIELw/feedshare-shrink_1280/0/1717335644170?e=1722470400&v=beta&t=pk36sVipxUa91SAnm7TfcosxBtzSug_PbIt0Ga4erVw">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="thumnbnail">
+                                <p class="p_med">67 Kids To School Fundraiser</p>
+                                <!-- <img class="smallIMG" src="Assets/images/home_67kidstoschoolfundraiser.jpg"> -->
+                                <img class="img-responsive" src="Assets/images/home_67kidstoschoolfundraiser.jpg">
+                            </div>
+                         </div>
+
+                         <div class="col-sm-4">
+                            <div class="thumnbnail">
+                                <a href="https://www.linkedin.com/learning/certificates/b642ea0ee3df4079727c7a1b1d97917ed087ee3e436f30699719045c7d04a519"
+                                target="_blank">
+                                    <p class="p_med">Financial Modeling and Forecasting Financial Statements</p>
+                                    <img class="img-responsive" src="https://media.licdn.com/dms/image/D4D2DAQGpIlOYAHjlag/profile-treasury-document-images_800/1/1717264808504?e=1720656000&v=beta&t=1C7BcHTXl_6rARhBp1C0abqoJ6IgCusC0rTCyjMm8Ag">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <br>
+
+            <!-- <div class="row">
+                <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+                <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
+                <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+            </div> -->
+
+            <br>
+
+            <!-- OTHER NOTABLE ACHIEVEMENTS -->
+            <div class="container text-center">
+                <div class="jumbotron" id="interestingProjects">
+                    <div class="container text-center">
+                    <h2 class="Title_">Other Notable Achievements</h2>
+
+                    <div class="row">
+
+                        <div class="col-sm-6 px-1">
+                            <p class="p_med">Public Speaking SALA Competition Final Round</p>
+                            <div class="thumnbnail">
+                                <!-- <p class="p_med">Public Speaking SALA Competition Final Round</p>
+                                <embed class="pdf" src="Assets/pdfs/Bheka - SA College.pdf" 
+                                style="height: 200%; width: 100%;"> -->
+
+                                <a href="Assets/pdfs/Bheka - SA College.pdf" target="_blank">
+                                    <img class="smallIMG thumnbnail" src="Assets/images/Cert_Public Speaking SALA Competition Final Round.PNG">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 px-1">
+                            <div class="thumnbnail">
+                                <a href="https://www.linkedin.com/in/bheka-mabika-aa4348205/overlay/1717190654113/single-media-viewer/?profileId=ACoAADQytBwBc3qC0-U4pFIsJ9w_ZoFQE5aAous"
+                                target="_blank">
+                                    <p class="p_med">Project Euler</p>
+                                    <img class="smallIMG" src="Assets/images/projectEuler.jpeg" style="height: 100%; width: 100%;">
+                                </a>
+
+                                <button class="px-1 mt-3 mb-3"data-toggle="collapse" data-target="#EP_learnMore">Learn more</button>
+
+                                <div id="EP_learnMore" class="collapse px-1">
+                                    Project Euler is a digital Colosseum for mathematically curious and algorithmically inclined programmers. This site offers a series of puzzles that progressively challenge and entertain. 
+
+                                    Imagine a programmer, freshly caffeinated and eager, tackling the initial simple puzzles with confidence. But as they delve deeper, they face intricate problems involving number theory and combinatorics, each more demanding than the last. 
+        
+                                    The struggle is real, but so is the satisfaction of solving each puzzle, akin to catching lightning in a bottle. The forums, filled with hints and camaraderie, become a second home. Project Euler isn’t just a website; it’s a journey through the landscapes of math and logic, perfect for those seeking to sharpen their skills and embrace tough problem-solving. Dive in, and prepare for some serious brain sweat.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        
+        </div>
+
+     </body>
+
+
+
+</html>
