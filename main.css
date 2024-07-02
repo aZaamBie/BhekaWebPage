@@ -3,32 +3,18 @@ html {
 }
 
 body{
-    /* ORIGINAL */
-    /* background-color: #686D76;  */
 
 	margin: 0%;
     padding: 0%;
     height: 100%;
     width: 100%;
 
-
-    /* ORIGINAL */
-    /* background: linear-gradient(#686D76, #373A40); */
-    
-    /* OLD: < 29/6/2024*/
-    /* background: linear-gradient(#3AAFA9, #2b8682); */
-    /* KEEP THIS! Without this, the gradient repeats*/
-    /* background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
-
     /* NEW */
     background-color: #000000 !important;
 
     color: aliceblue;
 
-    /* font-family: 'Times New Roman', Times, serif; */
     font-family: Arial, Helvetica, sans-serif;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 .heading{
@@ -44,69 +30,6 @@ body{
 
     text-align: center;
 }
-
-.TopNav{
-    width: 100%;
-	padding: 0px;
-
-	padding-top: 1%;
-	padding-bottom: 1%;
-
-	margin: auto;
-	overflow: hidden;
-
-	align-items: center; /* centers elements*/
-    text-align: center;
-    display: block; 
-
-	/* STICK TO TOP OF PAGE */
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-    /*  */
-
-    list-style: none;
-
-    /* background-color: #EEEEEE; */
-    background-color: #FEFFFF;
-    color: #373A40;
-
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.TopNav a{
-    display: inline-block;
-    padding-right: 3%;
-    font-size: larger;
-    font-size: x-large;
-
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: none; /* Remove underline */
-
-    color: #000000;
-}
-
-.TopNav a:hover{
-    color: #606877;
-    text-decoration: none;
-}
-
-/* #DC5F00 */
-
-/* .container{
-    display: grid;
-    justify-content: center;
-    place-items: center;
-
-    grid-gap: 5em;
-} */
-
-
-/* FLEX DISPLAY:
-        justify-content: center; || affects the x-axis
-        align-itmes: center;    || affects the y-axis
-    */
-
 
 /* BOOTSTRAP CUSTOMIZATIONS */
 .nav-link{
@@ -133,34 +56,13 @@ body{
 /* HOME PAGE */
 
 .Home{
-    /* width: 50%; */
-    /* centering  */
-    /* margin: 0 auto;
-    position: absolute;
-    position: relative;
-
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); */
-    /* END */
-
     align-items: center;
     text-align: center;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-    /* NEW CENTERING */
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    margin: auto; */
 }
 
 .interestingProjects{
-    /* background-color:  #a8a19c ; */
-    /* background-color:  #2B7A7B ; */
     background-color:  #DEF2F1 ;
     width: 75%;
 
@@ -182,21 +84,11 @@ body{
     padding-bottom: 10%;
 
     color: #373a3f;
-
-    /* GRID STUFF
-    display: grid;
-    justify-content: center;
-    place-items: center;  */
 }
 
 .Title_{
-    /* background-color: #373A40; */
     background-color: #575e6a;
     border-radius: 5px;
-
-    /* width: fit-content; */
-    /* width: auto; */
-    /* width: 100%; */
 
     padding: 1%;
 
@@ -214,18 +106,9 @@ body{
 
     color: white;
 
-    /* text-align: center;
-    justify-content: center; */
-
 }
 
 .smallIMG{
-    width: 50%;
-    height: 50%;
-
-    /* width: fit-content;
-    height: fit-content; */
-
     margin: 0 auto;
 
     height: 100%;
@@ -233,7 +116,6 @@ body{
 }
 
 .img-responsive{
-    width: 75%;
     width: 100%;
 }
 
@@ -246,38 +128,12 @@ body{
     border-radius: 5px;
 
     font-size: large;
-    /* font-size: 1.5em; */
 
-    /* width: 50%;
-    height: 50%; */
     margin: 0 auto;
     
     padding: 1%;
     margin-bottom: 1%;
 }
-
-/* .pdf{
-    height: fit-content; 
-    width: fit-content;
-} */
-
-
-
-/* ABOUT PAGE */
-
-/* #About h3{
-    background-color: #093f9b;
-    border: #093f9b 2px solid;
-} */
-
-/* #About { */
-    /* GRID STUFF */
-    /* display: grid;
-    justify-content: center;
-    place-items: center; 
-    grid-gap: 2em;
-} */
-
 
 /* PROJECTS PAGE */
 
